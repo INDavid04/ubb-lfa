@@ -1,4 +1,5 @@
 # Deterministic Finite Automaton (DFA) with modularization
+# Accept strings with final character 1 and reject strings with final characters 0
 
 # States (Q): A finite set of states. Example: {q0, q1}
 # Alphabet (Σ): A finite set of input symbols. Example: {0, 1} 
