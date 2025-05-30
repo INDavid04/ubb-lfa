@@ -1,0 +1,26 @@
+[States]
+q0
+q1
+q2
+[End]
+
+[Alphabet]
+a
+b
+[End]
+
+[Start]
+q0
+[End]
+
+[Accept]
+q2
+[End]
+
+[Transitions]
+q0, a, $, q0, A$
+q0, a, A, q0, AA
+q0, b, A, q1, ε
+q1, b, A, q1, ε
+q1, ε, $, q2, ε
+[End]

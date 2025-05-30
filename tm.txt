@@ -1,0 +1,23 @@
+[States]
+q0
+q1
+q_accept
+[End]
+
+[Alphabet]
+a
+[End]
+
+[Start]
+q0
+[End]
+
+[Accept]
+q_accept
+[End]
+
+[Transitions]
+q0, a, q1, a, R
+q1, a, q0, a, R
+q0, _, q_accept, _, R
+[End]
